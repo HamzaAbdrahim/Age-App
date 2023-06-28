@@ -1,0 +1,41 @@
+:root {
+--Purple: hsl(259, 100%, 65%);
+--Light-red: hsl(0, 100%, 67%);
+--White: hsl(0, 0%, 100%);
+--Off-white: hsl(0, 0%, 94%);
+--Light-grey: hsl(0, 0%, 86%);
+--Smokey-grey: hsl(0, 1%, 44%);
+--Off-black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+    border-bottom-right-radius: 20vh 20vh;
+}    
+
+input {
+    width: 3rem;
+}
+
+.filed {
+    font-size: 0.65rem;
+}
+
+@media(max-width:768px) {
+    .filed {
+        font-size: 0.50rem;
+    }
+}
+.icon.animaition img {
+    transform: rotate(540deg);
+}
+
+.erore input {
+    border-color: var(--Light-red);
+}
+.erore > span {
+    color: var(--Light-red);
+}
